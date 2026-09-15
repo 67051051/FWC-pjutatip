@@ -1,1 +1,3 @@
-find . -mindepth 1 \( -type f -o -type d \) | wc -l
+#!/bin/sh
+
+find . -mindepth 1 \( -type f -o -type d \) | wc -l | tr -d ' \n'
