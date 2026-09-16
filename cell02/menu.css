@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.menu {
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.menu-title {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.dropdown {
+    display: none;
+}
+
+.menu:hover .dropdown {
+    display: block;
+}
+
+.item {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: #ddd;
+}

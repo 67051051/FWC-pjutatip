@@ -20,9 +20,9 @@ td {
 }
 
 td:first-child {
-    background-color: lightblue;
+    background-color: purple;
 }
 
 td:last-child {
-    background-color: lightgreen;
+    background-color: yellow;
 }
